@@ -55,14 +55,24 @@ return [
     */
 
     'hidden' => [
-        NunoMaduro\LaravelConsoleSummary\SummaryCommand::class,
-        Symfony\Component\Console\Command\DumpCompletionCommand::class,
-        Symfony\Component\Console\Command\HelpCommand::class,
-        Illuminate\Console\Scheduling\ScheduleRunCommand::class,
-        Illuminate\Console\Scheduling\ScheduleListCommand::class,
         Illuminate\Console\Scheduling\ScheduleFinishCommand::class,
+        Illuminate\Console\Scheduling\ScheduleListCommand::class,
+        Illuminate\Console\Scheduling\ScheduleRunCommand::class,
         Illuminate\Foundation\Console\VendorPublishCommand::class,
         LaravelZero\Framework\Commands\StubPublishCommand::class,
+        NunoMaduro\LaravelConsoleSummary\SummaryCommand::class,
+        Pest\Laravel\Commands\PestDatasetCommand::class,
+        Pest\Laravel\Commands\PestInstallCommand::class,
+        LaravelZero\Framework\Commands\MakeCommand::class,
+        LaravelZero\Framework\Commands\BuildCommand::class,
+        LaravelZero\Framework\Commands\RenameCommand::class,
+        LaravelZero\Framework\Commands\TestMakeCommand::class,
+        \NunoMaduro\Collision\Adapters\Laravel\Commands\TestCommand::class,
+        \Laravel\Tinker\Console\TinkerCommand::class,
+        LaravelZero\Framework\Commands\InstallCommand::class,
+        Pest\Laravel\Commands\PestTestCommand::class,
+        Symfony\Component\Console\Command\DumpCompletionCommand::class,
+        Symfony\Component\Console\Command\HelpCommand::class,
     ],
 
     /*
