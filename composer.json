@@ -7,8 +7,8 @@
         "illuminate/http": "^9.0",
         "intonate/tinker-zero": "^1.2",
         "laravel-zero/framework": "^9.2",
-        "surgiie/blade": "^0.1.0",
-        "surgiie/console": "^0.1.0"
+        "surgiie/blade": "^0.2.0",
+        "surgiie/console": "^0.6.0"
     },
     "require-dev": {
         "laravel/pint": "^1.2",
