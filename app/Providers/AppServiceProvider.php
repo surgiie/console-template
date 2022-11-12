@@ -17,18 +17,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Artisan::starting(
-            function ($artisan) {
-                $logo = base_path('logo.txt');
-
-                if (is_file($logo)) {
-                    $artisan->setName(
-                        file_get_contents($logo)
-                    );
-                }
-            }
-        );
-
+        
         $hidden = config('commands.hidden');
 
         $devClasses = [
