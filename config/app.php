@@ -36,8 +36,7 @@ return [
     |
     */
 
-    'version' => app('git.version'),
-
+    'version' => require_once base_path('version.php'),
     /*
     |--------------------------------------------------------------------------
     | Application Environment
