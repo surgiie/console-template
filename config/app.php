@@ -36,7 +36,7 @@ return [
     |
     */
 
-    'version' => require base_path('version.php'),
+    'version' => require_once base_path('version.php'),
     /*
     |--------------------------------------------------------------------------
     | Application Environment
