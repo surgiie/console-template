@@ -40,7 +40,7 @@ return [
     */
 
     'add' => [
-        \Intonate\TinkerZero\Console\TinkerZeroCommand::class
+        \Intonate\TinkerZero\Console\TinkerZeroCommand::class,
     ],
 
     /*

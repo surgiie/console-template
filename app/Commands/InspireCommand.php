@@ -2,11 +2,11 @@
 
 namespace App\Commands;
 
+use App\Support\BaseCommand;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Support\Collection;
-use Surgiie\Console\Command as ConsoleCommand;
 
-class InspireCommand extends ConsoleCommand
+class InspireCommand extends BaseCommand
 {
     /**
      * The signature of the command.

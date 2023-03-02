@@ -38,17 +38,6 @@ return [
 
     'version' => require base_path('version.php'),
 
-
-    /*
-    |--------------------------------------------------------------------------
-    | Compiled cache path.
-    |--------------------------------------------------------------------------
-    |
-    | This value determines where to put compiled results for blade 
-    | renderered files. This is also required if the cli relies on blade helper 
-    | from surgiie/console and is being built as a stand alone phar.
-    */
-    'compiled_path' => storage_path('app/.compiled'),
     /*
     |--------------------------------------------------------------------------
     | Application Environment
@@ -61,7 +50,7 @@ return [
     |
     */
 
-    'env' => 'development',
+    'env' => env('APP_ENV', 'development'),
 
     /*
     |--------------------------------------------------------------------------
